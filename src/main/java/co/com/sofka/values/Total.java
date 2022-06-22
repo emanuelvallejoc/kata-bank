@@ -2,7 +2,7 @@ package co.com.sofka.values;
 
 public class Total implements ObjectValueI<Integer> {
 
-    private int total;
+    private final int total;
 
 
     private Total(Integer total) {

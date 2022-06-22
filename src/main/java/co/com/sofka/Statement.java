@@ -36,10 +36,7 @@ public class Statement {
     public String movements(){
         Collections.reverse(movements);
         var sb = new StringBuilder();
-        movements.forEach(movement -> {
-            addLine(sb, movement);
-        });
-
+        movements.forEach(movement -> addLine(sb, movement));
         return sb.toString();
     }
 
